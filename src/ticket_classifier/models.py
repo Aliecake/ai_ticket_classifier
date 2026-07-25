@@ -32,8 +32,8 @@ class TicketClassification(BaseModel):
     category: TicketCategory = Field(
         description="The primary topic of the customer's request."
     )
-    priority: TicketPriority = Field(
-        description="Operational priority based on impact, urgency, and scope."
+    triage_priority: TicketPriority = Field(
+        description="Operational triaging priority based on impact, urgency, and scope."
     )
     route: TicketRoute = Field(
         description="The team best suited to own the next action."

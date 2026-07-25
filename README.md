@@ -24,7 +24,7 @@ Structured output:
 ```json
 {
   "category": "billing",
-  "priority": "high",
+  "triage_priority": "high",
   "route": "support",
   "requires_engineering": false,
   "summary": "Customer reports a duplicate subscription charge.",

@@ -36,7 +36,7 @@ That is why this project will later add labeled examples and evaluation.
 
 ### Design decisions
 
-- `category`, `priority`, and `route` use enums to prevent arbitrary labels.
+- `category`, `triage_priority`, and `route` use enums to prevent arbitrary labels.
 - `confidence` is constrained to values from `0.0` through `1.0`.
 - `summary` is length-limited.
 - Empty ticket input is rejected before making an API request.

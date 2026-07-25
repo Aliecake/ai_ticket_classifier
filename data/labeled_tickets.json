@@ -1,0 +1,242 @@
+[
+  {
+    "id": "TICKET-001",
+    "text": "I was charged twice for my subscription this month.",
+    "expected": {
+      "category": "billing",
+      "triage_priority": "medium",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-002",
+    "text": "I upgraded to the Pro plan, but my account is still showing Free plan features.",
+    "expected": {
+      "category": "billing",
+      "triage_priority": "high",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-003",
+    "text": "Can you refund an annual subscription payment I made by accident?",
+    "expected": {
+      "category": "billing",
+      "triage_priority": "medium",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-004",
+    "text": "Our finance department needs an invoice for last month's payment.",
+    "expected": {
+      "category": "billing",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-005",
+    "text": "Password reset emails never arrive, and I have checked my spam folder.",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "high",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-006",
+    "text": "I get an 'Invalid Token' error every time I try to log in, even after requesting a new login link.",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "high",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-007",
+    "text": "Our SSO login stopped working for every employee after yesterday's update. Nobody can access the application.",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "urgent",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-008",
+    "text": "Can you change the email address associated with my account?",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-009",
+    "text": "Uploading PNG files larger than 5 MB causes the dashboard to freeze and display a blank page.",
+    "expected": {
+      "category": "bug",
+      "triage_priority": "high",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-010",
+    "text": "The mobile app crashes immediately after I open it. I have already reinstalled it twice.",
+    "expected": {
+      "category": "bug",
+      "triage_priority": "urgent",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-011",
+    "text": "When I export a report as CSV, some of the columns are blank even though the data appears in the dashboard.",
+    "expected": {
+      "category": "bug",
+      "triage_priority": "medium",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-012",
+    "text": "Every button on the editor works except Save Draft. Clicking it does nothing.",
+    "expected": {
+      "category": "bug",
+      "triage_priority": "medium",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-013",
+    "text": "Please add a dark mode option to the dashboard.",
+    "expected": {
+      "category": "feature_request",
+      "triage_priority": "low",
+      "route": "product",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-014",
+    "text": "It would be helpful if reports could be scheduled and emailed automatically.",
+    "expected": {
+      "category": "feature_request",
+      "triage_priority": "low",
+      "route": "product",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-015",
+    "text": "Please add support for exporting dashboards directly to PowerPoint.",
+    "expected": {
+      "category": "feature_request",
+      "triage_priority": "medium",
+      "route": "product",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-016",
+    "text": "We would like an API endpoint that allows us to create users in bulk.",
+    "expected": {
+      "category": "feature_request",
+      "triage_priority": "medium",
+      "route": "product",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-017",
+    "text": "How do I invite another team member to our workspace?",
+    "expected": {
+      "category": "general_support",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-018",
+    "text": "Where can I change which email notifications I receive?",
+    "expected": {
+      "category": "general_support",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-019",
+    "text": "I am new to the platform. Is there a getting started guide or tutorial?",
+    "expected": {
+      "category": "general_support",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-020",
+    "text": "Which web browsers are officially supported?",
+    "expected": {
+      "category": "general_support",
+      "triage_priority": "low",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-021",
+    "text": "I upgraded our account yesterday, but my coworker still cannot see the shared workspace.",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "medium",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-022",
+    "text": "Everyone in our company receives a 500 error whenever they open the Reports page.",
+    "expected": {
+      "category": "bug",
+      "triage_priority": "urgent",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  },
+  {
+    "id": "TICKET-023",
+    "text": "I canceled my subscription last month, but I was charged again today.",
+    "expected": {
+      "category": "billing",
+      "triage_priority": "high",
+      "route": "support",
+      "requires_engineering": false
+    }
+  },
+  {
+    "id": "TICKET-024",
+    "text": "The login page keeps refreshing forever when I use Safari, but it works in Chrome.",
+    "expected": {
+      "category": "account_access",
+      "triage_priority": "high",
+      "route": "engineering",
+      "requires_engineering": true
+    }
+  }
+]
