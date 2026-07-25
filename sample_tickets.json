@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TICKET-001",
+    "text": "I was charged twice for my subscription this month. Please refund the duplicate charge."
+  },
+  {
+    "id": "TICKET-002",
+    "text": "Every time I upload a PNG larger than 5 MB, the dashboard freezes and shows a blank page."
+  },
+  {
+    "id": "TICKET-003",
+    "text": "Could you add dark mode to the analytics dashboard?"
+  },
+  {
+    "id": "TICKET-004",
+    "text": "I forgot my password and the reset email has not arrived."
+  }
+]
