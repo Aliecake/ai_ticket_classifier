@@ -163,7 +163,7 @@
     "id": "TICKET-017",
     "text": "How do I invite another team member to our workspace?",
     "expected": {
-      "category": "general_support",
+      "category": "how_to",
       "triage_priority": "low",
       "route": "support",
       "requires_engineering": false
@@ -173,7 +173,7 @@
     "id": "TICKET-018",
     "text": "Where can I change which email notifications I receive?",
     "expected": {
-      "category": "general_support",
+      "category": "how_to",
       "triage_priority": "low",
       "route": "support",
       "requires_engineering": false
@@ -183,7 +183,7 @@
     "id": "TICKET-019",
     "text": "I am new to the platform. Is there a getting started guide or tutorial?",
     "expected": {
-      "category": "general_support",
+      "category": "how_to",
       "triage_priority": "low",
       "route": "support",
       "requires_engineering": false
@@ -193,7 +193,7 @@
     "id": "TICKET-020",
     "text": "Which web browsers are officially supported?",
     "expected": {
-      "category": "general_support",
+      "category": "how_to",
       "triage_priority": "low",
       "route": "support",
       "requires_engineering": false

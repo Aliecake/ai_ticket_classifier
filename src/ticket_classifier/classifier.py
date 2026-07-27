@@ -33,7 +33,11 @@ def classify_ticket(
         raise ValueError("Ticket text cannot be empty.")
 
     resolved_settings = settings or Settings()
-    resolved_client = client or OpenAI(api_key=resolved_settings.openai_api_key)
+    resolved_client = client or OpenAI(
+        api_key=resolved_settings.openai_api_key,
+        timeout=resolved_settings.openai_timeout,
+        max_retries=resolved_settings.openai_max_retries,
+    )
 
     response = resolved_client.responses.parse(
         model=resolved_settings.openai_model,
